@@ -1,0 +1,17 @@
+USE myDB;
+
+
+CREATE TABLE tbl_cbt(
+	
+    
+    cb_code	VARCHAR(5)	NOT NULL	PRIMARY KEY,
+	cb_q	nVARCHAR(125)	NOT NULL	,
+	cb_af	nVARCHAR(125)	NOT NULL	,
+	cb_a1	nVARCHAR(125)	NOT NULL	,
+	cb_a2	nVARCHAR(125)	NOT NULL	,
+	cb_a3	nVARCHAR(125)	NOT NULL	
+
+
+);
+
+
